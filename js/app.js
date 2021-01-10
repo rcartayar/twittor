@@ -7,7 +7,6 @@ if ( navigator.serviceWorker ) {
         swLocation = '/sw.js';
     }
 
-        swLocation = '/sw.js';
     navigator.serviceWorker.register( swLocation );
 }
 
