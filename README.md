@@ -1,3 +1,3 @@
-# Chat de Héroes
+# Bitz
 
-Un cascarón de chat usando jQuery para PWAs
+Bitz jQuery para PWAs

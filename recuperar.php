@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bitz</title>
+    <title>Bitz - Recuperar Clave</title>
 
     <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
@@ -49,33 +49,23 @@
 <body>
     <div class="login-box">        
         <div><img src="img/BizLogin.png" alt="Biz"  class="avatar"></div>
-        <form action="./" method="post" class="needs-validation row register-form">
+        <!-- <form action="enviar_clave_recuperacion.php" method="post" class="needs-validation row register-form"> -->
+        <form action="" method="post" class="needs-validation row register-form">
           <!-- USERNAME INPUT -->
             <div class="campos_login">
                 <div class="form-group">
                     <input name="email_s" type="email" id="email_s" placeholder="Correo" class="form-control" required>
                 </div> 
             </div>
-            <div class="campos_login">
-                <div class="form-group">
-                    <input type="password" name="password_s" id="password_s" class="form-control password_s" placeholder="Contraseña" required>
-                </div>	
-            </div>
             <br>
-            <input type="submit" value="Ingresar">
+            <input type="submit" value="Recuperar">
             <div class="text_login">
-                <a id="olvidoclave" style="cursor: pointer;"  href="recuperar.php">Recuperar Clave</a>
-                &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="home" style="cursor: pointer;"  href="./">Home</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a id="registro" style="cursor: pointer;"  href="registrar.php">Nuevo Usuario</a>
-            </div>          
+            </div>    
 
-            <!-- boton de enviar -->
-            <br>
-            <div class="text_login">
-                <img src="img/huellas.png">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src="img/redsocial_google.png">
-            </div>
+            
            
         </form>
     </div>
